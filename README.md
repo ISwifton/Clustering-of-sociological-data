@@ -7,3 +7,5 @@ The script Clustering_by_country.ipynb takes the data about people's locations f
 The script Clustering_by_job.ipynb takes the data about people's job situations form file data_job.csv. There are four fields: HasJob, StableIncome, KeepSpecialization, and FullTime. Then, the script computes the pairwise distance matrix, makes clustering, and visualizes the results.
 
 The script Clustering _by_ all_fields.ipynb takes aggregated data from the file all_data_200.csv. The file contains five fields describing the countries of relocation, four fields describing the job state, four fields stating academic degrees (Bachelor, Master, Ph.D., DSC), and five fields displaying the specializations. Then we build a pairwise distance matrix on the aggregated data and cluster them into 10 clusters. The last step is the visualization of the clustering.
+
+The script Clustering_big_data.ipynb shows how the system works with big data (more than 6000 rows).
