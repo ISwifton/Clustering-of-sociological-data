@@ -61,4 +61,7 @@ Cluster 4 (brown) - median [[5. 3. 2. 3. 1.]]
 
 Armenia, Ph.D., No Job, STEM, No Income confirmation
 
-The final script Clustering_automated_portraits.ipynb creates the portraits for each cluster from medians and automatically builds the labels for the chart. 
+The final script Clustering_automated_portraits.ipynb creates the portraits for each cluster from medians and automatically builds the labels for the chart.
+
+![Clustering sociological data](/ISwifton/Clustering-of-sociological-data/blob/main/clustering.png)
+
