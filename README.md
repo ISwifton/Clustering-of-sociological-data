@@ -60,3 +60,5 @@ Armenia, Master's degree, No Job, Others, No Income confirmation
 Cluster 4 (brown) - median [[5. 3. 2. 3. 1.]]
 
 Armenia, Ph.D., No Job, STEM, No Income confirmation
+
+The final script Clustering_automated_portraits.ipynb creates the portraits for each cluster from medians and automatically builds the labels for the chart. 
