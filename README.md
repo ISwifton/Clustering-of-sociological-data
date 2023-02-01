@@ -4,9 +4,9 @@ To build sociological portraits, we use raw data from the file raw_data_3.csv. T
 
 The script Clustering_by_country.ipynb takes the data about people's locations from file data_countries_2.csv. In this document formed from the sample data, 1 means the cell of the person's location country, and 0's are stated in the others cells. The script computes a pairwise distance matrix (by country) and makes clusters. We set 0 in the new data frame cell if two raws with persons' features are equal. Otherwise, we put 1. We use the t-SNE algorithm for the new data frame and visualize the clusters.
 
-The script Clustering_by_job.ipynb takes the data about people's job situations form file data_job.csv. There are four fields: HasJob, StableIncome, KeepSpecialization, and FullTime. Then, the script computes the pairwise distance matrix, makes clustering, and visualizes the results.
+The script Clustering_by_job.ipynb takes the data about people's employment from file data_job.csv. There are four fields: HasJob, StableIncome, KeepSpecialization, and FullTime. Then, the script computes the pairwise distance matrix, makes clustering, and visualizes the results.
 
-The script Clustering _by_ all_fields.ipynb takes aggregated data from the file all_data_200.csv. The file contains five fields describing the countries of relocation, four fields describing the job state, four fields stating academic degrees (Bachelor, Master, Ph.D., DSC), and five fields displaying the specializations. Then we build a pairwise distance matrix on the aggregated data and cluster them into 10 clusters. The last step is the visualization of the clustering.
+The script Clustering by all_fields.ipynb takes aggregated data from all_data_200.csv. The file contains five fields describing the countries of relocation, four fields describing the people's employment, four fields stating academic degrees (Bachelor, Master, Ph.D., DSC), and five fields displaying the specializations. Then we build a pairwise distance matrix on the aggregated data and cluster them into 10 clusters. The last step is visualization.
 
 The script Clustering_big_data.ipynb shows how the system works with big data (more than 6000 rows).
 
