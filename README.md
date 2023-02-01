@@ -9,7 +9,7 @@ The script Clustering_by_job.ipynb takes the data about people's employment from
 The script Clustering by all_fields.ipynb takes aggregated data from all_data_200.csv. The file contains five fields describing the countries of relocation, four fields describing the people's employment, four fields stating academic degrees (Bachelor, Master, Ph.D., DSC), and five fields displaying the specializations. Then we build a pairwise distance matrix on the aggregated data and cluster them into 10 clusters. The last step is visualization.
 
 The script Clustering_big_data.ipynb shows how the system works with big data (more than 6000 rows).
-The script Clustering_big_data_with_portrets.ipynb, along with the clustering, shows the people's portraits for each cluster. To make them, we build the median matrixes for each cluster and compose the portrait descriptions according to the following designations. 
+The script Clustering_big_data_with_portrets.ipynb, along with the clustering, shows the people's portraits for each cluster. To make them, we build the median matrixes for each cluster and compose the portrait descriptions according to the following temporary designations. 
 
 Column 1 - Country:
 Kazakhstan - 2;
