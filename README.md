@@ -9,38 +9,36 @@ The script Clustering_by_job.ipynb takes the data about people's employment from
 The script Clustering by all_fields.ipynb takes aggregated data from all_data_200.csv. The file contains five fields describing the countries of relocation, four fields describing the people's employment, four fields stating academic degrees (Bachelor, Master, Ph.D., DSC), and five fields displaying the specializations. Then we build a pairwise distance matrix on the aggregated data and cluster them into 10 clusters. The last step is visualization.
 
 The script Clustering_big_data.ipynb shows how the system works with big data (more than 6000 rows).
-
 The script Clustering_big_data_with_portrets.ipynb, along with the clustering, shows the people's portraits for each cluster. To make them, we build the median matrixes for each cluster and compose the portrait descriptions according to the following designations. 
 
-1 column - Country
-Kazakhstan - 2
-Georgia - 4
-Armenia - 5
-Asia - 7
-Europe - 6
+Column 1 - Country:
+Kazakhstan - 2;
+Georgia - 4;
+Armenia - 5;
+Asia - 7;
+Europe - 6.
 
-2 column - Education (Academic Degrees)
-Bachelor's degree - 1
-Master's degree - 2
-Ph.D. - 3
-DSC (Doctor of sciences) - 4
+Column 2 - Education (Academic Degrees):
+Bachelor's degree - 1;
+Master's degree - 2;
+Ph.D. - 3;
+DSC (Doctor of sciences) - 4.
 
-3 column - Work status
-0 - No job, no income, no KeepSpecialization, no FullTime
-1 - job, no income, no KeepSpecialization, no FullTime
-2 - job, Has income, no KeepSpecialization, no FullTime
-3 - job, Has income, KeepSpecialization, no FullTime
-4 - job, Has income, KeepSpecialization, FullTime
-temporarily - 0-2 - No Job, 3-4 - Has Job
+Column 3 - Employment status:
+0 - No job & No Income & No KeepSpecialization & No FullTime;
+1 - Has Job & No Income & No KeepSpecialization & No FullTime;
+2 - Has Job & Has Income & No KeepSpecialization & No FullTime;
+3 - Has Job & Has Income & KeepSpecialization & No FullTime;
+4 - Has Job & Has Income & KeepSpecialization & FullTime.
 
-4 column - Specialization
-STEM (physicist, mathematician, chemist) - 1,2,3...
-Soft Science - 11, 12, ...19
-20, 21 ... - Others
+Column 4 - Specialization:
+STEM (physicist, mathematician, chemist) - 1,2,3...;
+Soft Science - 11, 12, ...19;
+20, 21 ... - Others;
 
-5 column - Income_confirmation
-No - 1
-Yes - 2
+Column 5 - Income_confirmation:
+No - 1;
+Yes - 2.
 
 Cluster 0 (red) - median [[2. 3. 2. 3. 1.]]
 Kazakhstan, Ph.D., No Job, STEM, No Income confirmation
