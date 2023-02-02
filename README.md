@@ -64,5 +64,5 @@ Armenia, Ph.D., No Job, STEM, No Income confirmation
 
 The final script, Clustering_automated_portraits.ipynb creates the portraits for each cluster from medians and automatically builds the labels for the chart.
 
-![Clustering sociological data](https://github.com/ISwifton/Clustering-of-sociological-data/blob/main/clustering.png)
+![Clustering sociological data](https://github.com/ISwifton/Clustering-of-sociological-data/blob/main/clustering_.png)
 
